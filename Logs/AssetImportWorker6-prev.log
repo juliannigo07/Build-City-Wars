@@ -1,0 +1,338 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Hub\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Andres/Desktop/Final Algoritmos 1
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53419
+Successfully changed project path to: C:/Users/Andres/Desktop/Final Algoritmos 1
+C:/Users/Andres/Desktop/Final Algoritmos 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27828] Host "[IP] 26.227.161.61 [Port] 0 [Flags] 2 [Guid] 1491347106 [EditorId] 1491347106 [Version] 1048832 [Id] WindowsEditor(7,Tuvieja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27828] Host "[IP] 26.227.161.61 [Port] 0 [Flags] 2 [Guid] 1491347106 [EditorId] 1491347106 [Version] 1048832 [Id] WindowsEditor(7,Tuvieja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 147.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path E:/Unity Hub/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andres/Desktop/Final Algoritmos 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+Initialize mono
+Mono path[0] = 'E:/Unity Hub/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Hub/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity Hub/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007040 seconds.
+- Loaded All Assemblies, in  0.951 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 433 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (197ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (562ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (764ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (547ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.9 KB). Loaded Objects now: 3632.
+Memory consumption went from 127.3 MB to 127.3 MB.
+Total: 3.886200 ms (FindLiveObjects: 0.598000 ms CreateObjectMapping: 0.337900 ms MarkObjects: 2.818300 ms  DeleteObjects: 0.130700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Import Request.
+  Time since last request: 37564.701436 seconds.
+  path: Assets/Prefab/assets/hex_grass_bottom.fbx
+  artifactKey: Guid(2ba657ee2c8382a47b23d768c7ae3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_grass_bottom.fbx using Guid(2ba657ee2c8382a47b23d768c7ae3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f759309f7f8b19416e7025e2184e26') in 0.145813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 13.206380 seconds.
+  path: Assets/Prefab/assets/building_blacksmith_blue.fbx
+  artifactKey: Guid(5e887e2a64c0baf40ac07ff52ba55dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/building_blacksmith_blue.fbx using Guid(5e887e2a64c0baf40ac07ff52ba55dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6672638942fc775ff88be5a8942f23') in 0.040679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/assets/building_tower_base_blue.fbx
+  artifactKey: Guid(944b58b5a73977d42b48859e0997a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/building_tower_base_blue.fbx using Guid(944b58b5a73977d42b48859e0997a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6c5bd91c3c08b739a9365dc4791a56') in 0.040647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/assets/hex_water.fbx
+  artifactKey: Guid(816228463e2cb0d4ab7aabb3952e5ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_water.fbx using Guid(816228463e2cb0d4ab7aabb3952e5ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6713fdd923ed284b2e7e379c86a8de') in 0.038550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/assets/hexagons_medieval.png
+  artifactKey: Guid(263562e54f6212d49b55d199df41f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hexagons_medieval.png using Guid(263562e54f6212d49b55d199df41f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28587d7af67d08f1aa38b8c0bafa1c73') in 0.038456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/assets/hex_grass_bottom.fbx
+  artifactKey: Guid(2ba657ee2c8382a47b23d768c7ae3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_grass_bottom.fbx using Guid(2ba657ee2c8382a47b23d768c7ae3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896fc6924676264d6ff1bf0932e37837') in 0.038312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 18.283073 seconds.
+  path: Assets/Prefab/assets/hex_road_A_sloped_high.fbx
+  artifactKey: Guid(59779457c9aa5944b81ca19dd4a839b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_A_sloped_high.fbx using Guid(59779457c9aa5944b81ca19dd4a839b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8b9da17b1c78d2d7f16820af47c6cd') in 0.038332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefab/assets/hex_road_I.fbx
+  artifactKey: Guid(5e427fab7f2ae99468a2b0e522113c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_I.fbx using Guid(5e427fab7f2ae99468a2b0e522113c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabf7e9072de80cb97f75b21fd19c3c2') in 0.064158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Prefab/assets/hex_road_M.fbx
+  artifactKey: Guid(9d4a1207ed591144c95b0c627a7f2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_M.fbx using Guid(9d4a1207ed591144c95b0c627a7f2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1092471febea8022f390abe32e901e70') in 0.045431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/assets/hex_road_C.fbx
+  artifactKey: Guid(aa79cd6053250c345a0350863f964e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_C.fbx using Guid(aa79cd6053250c345a0350863f964e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b984abd72b6be6650fbc31a295d78bae') in 0.045771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 34.603972 seconds.
+  path: Assets/Prefab/assets/Skeleton_Arrow_Broken.fbx
+  artifactKey: Guid(dd660cf18b39ca8489cc0911b6ec0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Arrow_Broken.fbx using Guid(dd660cf18b39ca8489cc0911b6ec0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2727a091f5b720bbc3cf97b4c2e720f9') in 0.029764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefab/assets/Skeleton_Shield_Small_A.fbx
+  artifactKey: Guid(cd3de4b74f6cc7f4c8bbeaa2e3aae373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Shield_Small_A.fbx using Guid(cd3de4b74f6cc7f4c8bbeaa2e3aae373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc96eb35ce5f114fdd82d16169e9925') in 0.043036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefab/assets/Skeleton_Shield_Small_B.fbx
+  artifactKey: Guid(79a98c94afe45da40880406b3ced7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Shield_Small_B.fbx using Guid(79a98c94afe45da40880406b3ced7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e12338bc31d75525e82fa56433414f') in 0.034022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.653300 seconds.
+  path: Assets/Prefab/assets/Skeleton_Arrow_Broken.fbx
+  artifactKey: Guid(dd660cf18b39ca8489cc0911b6ec0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Arrow_Broken.fbx using Guid(dd660cf18b39ca8489cc0911b6ec0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d941a00aa7e57ba6354558d6cdc8034') in 0.068400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/assets/skeleton_texture.png
+  artifactKey: Guid(aaf089e0fb6a3384580142d16649e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/skeleton_texture.png using Guid(aaf089e0fb6a3384580142d16649e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd663509690b0dc5d7534569f60e34b') in 0.065893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefab/assets/Skeleton_Shield_Large_A.fbx
+  artifactKey: Guid(91b1dd2f8ab8b664badfb114e73eb2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Shield_Large_A.fbx using Guid(91b1dd2f8ab8b664badfb114e73eb2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881db7c494cf8ea65e94b304739d9d16') in 0.046806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/assets/Skeleton_Quiver.fbx
+  artifactKey: Guid(9108ab9daa9ff584a8f16e4b64088b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Quiver.fbx using Guid(9108ab9daa9ff584a8f16e4b64088b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b18988daadbba3bb01dad73a45d8e4') in 0.024093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

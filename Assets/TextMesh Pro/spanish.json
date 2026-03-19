@@ -1,0 +1,21 @@
+{
+  "entries": [
+    { "key": "play", "value": "Jugar" },
+    { "key": "credits", "value": "Créditos" },
+    { "key": "exit", "value": "Salir" },
+    { "key": "back", "value": "Volver" },
+    { "key": "buy_normal_tower", "value": "Comprar Torre Normal" },
+    { "key": "buy_freeze_tower", "value": "Comprar Torre Hielo" },
+    { "key": "buy_explosive_tower", "value": "Comprar Torre Explosiva" },
+    { "key": "add_damage", "value": "+ Daño" },
+    { "key": "you_win", "value": "¡Ganaste!" },
+    { "key": "game_over", "value": "¡Perdiste!" },
+    { "key": "back_to_menu", "value": "Volver al Menú" },
+    { "key": "money", "value": "DINERO: " },
+    { "key": "wave_counter", "value": "Oleadas: " },
+    { "key": "language", "value": "Spanish" },
+    { "key": "pause", "value": "Pausa" },
+    { "key": "resume", "value": "Seguir" },
+    { "key": "prices", "value": "+ Daño = 20$ Torre = 5$ Torre Hielo = 15$ Torre Explosiva = 30$" }
+  ]
+}

@@ -1,0 +1,1614 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Hub\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Andres/Desktop/Final Algoritmos 1
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53419
+Successfully changed project path to: C:/Users/Andres/Desktop/Final Algoritmos 1
+C:/Users/Andres/Desktop/Final Algoritmos 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25416] Host "[IP] 26.227.161.61 [Port] 0 [Flags] 2 [Guid] 514740508 [EditorId] 514740508 [Version] 1048832 [Id] WindowsEditor(7,Tuvieja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25416] Host "[IP] 26.227.161.61 [Port] 0 [Flags] 2 [Guid] 514740508 [EditorId] 514740508 [Version] 1048832 [Id] WindowsEditor(7,Tuvieja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 144.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path E:/Unity Hub/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andres/Desktop/Final Algoritmos 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+Initialize mono
+Mono path[0] = 'E:/Unity Hub/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Hub/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity Hub/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006963 seconds.
+- Loaded All Assemblies, in  0.951 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 434 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (197ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (562ms)
+				TypeCache.ScanAssembly (448ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (764ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (547ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1375ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.9 KB). Loaded Objects now: 3632.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 3.406900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.265500 ms MarkObjects: 2.734200 ms  DeleteObjects: 0.121400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Import Request.
+  Time since last request: 37564.701774 seconds.
+  path: Assets/Prefab/assets/hex_grass_sloped_low.fbx
+  artifactKey: Guid(c7185b70ccfde6b47abba8e1b5bf28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_grass_sloped_low.fbx using Guid(c7185b70ccfde6b47abba8e1b5bf28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b08e5caa2a16ffcb873e9afd1530e80') in 0.193531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 13.159268 seconds.
+  path: Assets/Prefab/assets/building_home_A_blue.fbx
+  artifactKey: Guid(12b3036ed9828414889ef31496c88f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/building_home_A_blue.fbx using Guid(12b3036ed9828414889ef31496c88f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ca3efb75a9c40921e2fcd01b78c6b') in 0.050611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/assets/building_windmill_blue.fbx
+  artifactKey: Guid(48cf96057edde464bbb7229469f91ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/building_windmill_blue.fbx using Guid(48cf96057edde464bbb7229469f91ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad3079ee1081dc07c83c4a96951e4c7') in 0.059518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/assets/hex_grass.fbx
+  artifactKey: Guid(8d4473d42708ea8499337b3a3ba8562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_grass.fbx using Guid(8d4473d42708ea8499337b3a3ba8562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379cd7f5d242643767f3bee0a6852f72') in 0.037263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefab/assets/building_mine_blue.fbx
+  artifactKey: Guid(95301425c8aba004cae94ba8c59b3f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/building_mine_blue.fbx using Guid(95301425c8aba004cae94ba8c59b3f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16566e21dabde445d9106cc6feacfd92') in 0.041986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 18.290463 seconds.
+  path: Assets/Prefab/assets/hex_road_B.fbx
+  artifactKey: Guid(c9c856fe076a9a24ea462a7b5f2cd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_B.fbx using Guid(c9c856fe076a9a24ea462a7b5f2cd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb7b4032108d967becff5539b21eaa8') in 0.051736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Prefab/assets/hex_road_D.fbx
+  artifactKey: Guid(662ab21b001d6f443be099b41f9b67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_D.fbx using Guid(662ab21b001d6f443be099b41f9b67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c5fb2ac8f73d629e98f76e21f8a58c') in 0.050504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Prefab/assets/hex_road_L.fbx
+  artifactKey: Guid(587aa49bc27ad1148bbbf7fff92635c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/hex_road_L.fbx using Guid(587aa49bc27ad1148bbbf7fff92635c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b08dc5792a8e2f48db38a582489fa24') in 0.062742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 34.635940 seconds.
+  path: Assets/Prefab/assets/Skeleton_Arrow_Half.fbx
+  artifactKey: Guid(c9a448b1a6375314b97de7c05acbe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Arrow_Half.fbx using Guid(c9a448b1a6375314b97de7c05acbe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850950b9ef99e8fc750a53e9887322ed') in 0.031064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefab/assets/Skeleton_Crossbow.fbx
+  artifactKey: Guid(46944831c32b0ec4799ef9626fb1c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Crossbow.fbx using Guid(46944831c32b0ec4799ef9626fb1c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34da3ea56f78ee80295c2289be52161b') in 0.037594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Prefab/assets/Skeleton_Shield_Large_B.fbx
+  artifactKey: Guid(903963bfc3917df4b83e5fdeb6d744c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Shield_Large_B.fbx using Guid(903963bfc3917df4b83e5fdeb6d744c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec6a025d0a19c9409e67bafeef2857a') in 0.031881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefab/assets/Skeleton_Quiver.fbx
+  artifactKey: Guid(9108ab9daa9ff584a8f16e4b64088b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Quiver.fbx using Guid(9108ab9daa9ff584a8f16e4b64088b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f569869eb0bc69fb69af41280bb0ff8') in 0.025327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.630064 seconds.
+  path: Assets/Prefab/assets/Skeleton_Arrow_Half.fbx
+  artifactKey: Guid(c9a448b1a6375314b97de7c05acbe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Arrow_Half.fbx using Guid(c9a448b1a6375314b97de7c05acbe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab306d207e173ec074c34f504f90910a') in 0.051827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Prefab/assets/Skeleton_Shield_Small_A.fbx
+  artifactKey: Guid(cd3de4b74f6cc7f4c8bbeaa2e3aae373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Shield_Small_A.fbx using Guid(cd3de4b74f6cc7f4c8bbeaa2e3aae373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1f9c2ab1c0b2c3e01ba03eca205d95') in 0.078958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/assets/Skeleton_Blade.fbx
+  artifactKey: Guid(922301e41b0de3540bb1417a9db17ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Blade.fbx using Guid(922301e41b0de3540bb1417a9db17ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6241afbb246fcff2692f36033baa55ae') in 0.044905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/assets/Skeleton_Staff.fbx
+  artifactKey: Guid(8b864604c82752347b30bce49dbd7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/assets/Skeleton_Staff.fbx using Guid(8b864604c82752347b30bce49dbd7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa02906cee26489e501344a8c39909f') in 0.027859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 304.910133 seconds.
+  path: Assets/Prefab/Torre/NormalTower.prefab
+  artifactKey: Guid(dd017e97935ee5c468a87d5fb9222570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Torre/NormalTower.prefab using Guid(dd017e97935ee5c468a87d5fb9222570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10211fc28da53f369efdf0c0c675f751') in 0.025567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 76.164425 seconds.
+  path: Assets/Prefab/Material/rul.mat
+  artifactKey: Guid(258b68ac24e24744f8768d38c4afafd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Material/rul.mat using Guid(258b68ac24e24744f8768d38c4afafd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1df2206a636d35a47fc1c1efa856388') in 0.070647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.875 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1867ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (634ms)
+		LoadAssemblies (436ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (265ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (994ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3680.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 4.671400 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.482700 ms MarkObjects: 3.728000 ms  DeleteObjects: 0.074000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.144 seconds
+Domain Reload Profiling: 1867ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1144ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3683.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 10.800100 ms (FindLiveObjects: 0.689900 ms CreateObjectMapping: 2.439300 ms MarkObjects: 7.469300 ms  DeleteObjects: 0.200800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.186 seconds
+Domain Reload Profiling: 1904ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 15.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3686.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 5.296700 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.889800 ms MarkObjects: 3.975900 ms  DeleteObjects: 0.067900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.780 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1131ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 9.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3689.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 4.771700 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.465400 ms MarkObjects: 3.713900 ms  DeleteObjects: 0.088900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3692.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 7.379500 ms (FindLiveObjects: 1.510300 ms CreateObjectMapping: 0.694200 ms MarkObjects: 5.118300 ms  DeleteObjects: 0.055300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Import Request.
+  Time since last request: 1923.418422 seconds.
+  path: Assets/Prefab/Enemigos/Enemy faster.prefab
+  artifactKey: Guid(0a9bd05562d5826479c043f2906a7150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemigos/Enemy faster.prefab using Guid(0a9bd05562d5826479c043f2906a7150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c504f58448c23cb660eb76a86658eae') in 0.136006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 11.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.324 seconds
+Domain Reload Profiling: 2082ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (312ms)
+				TypeCache.ScanAssembly (300ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.4 KB). Loaded Objects now: 3696.
+Memory consumption went from 124.6 MB to 124.5 MB.
+Total: 5.655200 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 1.270700 ms MarkObjects: 3.931200 ms  DeleteObjects: 0.058300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.000 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 14.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3699.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.762600 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.306000 ms MarkObjects: 3.069300 ms  DeleteObjects: 0.053200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1662ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (265ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3702.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.200500 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.259700 ms MarkObjects: 2.486600 ms  DeleteObjects: 0.049000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.888 seconds
+Domain Reload Profiling: 1621ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3705.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.111000 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.272900 ms MarkObjects: 2.502300 ms  DeleteObjects: 0.060000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/EnemyFactory.cs: 17457b5a8a358e17ac01137f32358fcd -> 68739099255b9705de22d7f29ae029bd
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.904 seconds
+Domain Reload Profiling: 1638ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (904ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 9.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.4 KB). Loaded Objects now: 3708.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.166700 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.241100 ms MarkObjects: 2.582500 ms  DeleteObjects: 0.053700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.747 seconds
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (281ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (340ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3711.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.076800 ms (FindLiveObjects: 0.312500 ms CreateObjectMapping: 0.227800 ms MarkObjects: 2.492400 ms  DeleteObjects: 0.043200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.859 seconds
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3714.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.281600 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.284200 ms MarkObjects: 2.590600 ms  DeleteObjects: 0.051000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.920 seconds
+Domain Reload Profiling: 1655ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3717.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 50.437100 ms (FindLiveObjects: 44.575100 ms CreateObjectMapping: 0.464900 ms MarkObjects: 4.106300 ms  DeleteObjects: 0.062400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.952 seconds
+Domain Reload Profiling: 1682ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (953ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.3 KB). Loaded Objects now: 3720.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.356600 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.291500 ms MarkObjects: 2.681700 ms  DeleteObjects: 0.048800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1631ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3723.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 3.100200 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.331600 ms MarkObjects: 2.388600 ms  DeleteObjects: 0.048100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3723.
+Memory consumption went from 76.4 MB to 76.4 MB.
+Total: 34.367000 ms (FindLiveObjects: 0.835200 ms CreateObjectMapping: 15.052800 ms MarkObjects: 18.453400 ms  DeleteObjects: 0.024600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GameEconomy.cs: 2b86d27452d31e5f9aa6ef5e4ab5cb75 -> 3c57978c6ffc0319d1cb757c9812eb27
+  custom:scripting/monoscript/fileName/TowerShopManager.cs: 18f3505aad6daacf38f0b85c8bbdb0b9 -> 774f1f9392deaf64f5ae46b951cef81b
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TowerSellHandler.cs: 5646056c24b946c2a1db19436c4c16d5 -> 0bce5b82a1880c2f4c2ae1e323090829
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: c7be0fb39d8a848aa997f795f195102b -> 16583eaf01662413665c0a8803428cd6
+  custom:scripting/monoscript/fileName/FreezeProjectile.cs: fc39a77fe9ca0aa3ce9a2b830828a039 -> a28db8b1feed4e244f5c1e71e85d0725
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 53341e7a3e5033d64d660e055d3212e9 -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BombTower.cs: 77284eb73cff8785e4b563db9d8dd8be -> 
+  custom:scripting/monoscript/fileName/Julian_Andres.cs: e1b19c676a15ee41af5cca425a46f77d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: ff4b1826aa128776d43250c9c48aceca -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FreezeTower.cs: cdfb91284c4863510ec94a00b7fd57c1 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IProjectileStrategy.cs: 3f9fa36d5ea755fdf0b3244790b402ea -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 557636673865ff53c1268fb7ac755d02 -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:scripting/monoscript/fileName/EnemyTank.cs: 298c4cdc86fde1b4f8af58178e4dd830 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TowerUpgradeable.cs: cf3159544766a602d42455ae142da037 -> 9d14783d38341aba7832e0a9b25d8326
+  custom:scripting/monoscript/fileName/ExplosiveProjectile.cs: 7585877e53e34ce585c7e7c7590ac4ed -> 6af5a3374bf681871b5ae7d0873a7b6f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: 34eeb3193d3f07ff8e4e2c684f46cde1 -> a9fea330da2ea253142424fd9aa964ea
+  custom:scripting/monoscript/fileName/EnemyFlyweightData.cs: 4eed0bc83f9a419cb31bf95effce747c -> 
+  custom:scripting/monoscript/fileName/BaseSlot.cs: c95a60c830a343f7ee147319a4d0c167 -> 28b29bf781349905fc5b37d94d3359eb

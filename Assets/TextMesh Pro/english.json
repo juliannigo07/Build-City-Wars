@@ -1,0 +1,21 @@
+{
+  "entries": [
+    { "key": "play", "value": "Play" },
+    { "key": "credits", "value": "Credits" },
+    { "key": "exit", "value": "Exit" },
+    { "key": "back", "value": "Back" },
+    { "key": "buy_normal_tower", "value": "Buy Normal Tower" },
+    { "key": "buy_freeze_tower", "value": "Buy Freeze Tower" },
+    { "key": "buy_explosive_tower", "value": "Buy Explosive Tower" },
+    { "key": "add_damage", "value": "+ Damage" },
+    { "key": "you_win", "value": "You Win!!" },
+    { "key": "game_over", "value": "Game Over!!!!!" },
+    { "key": "back_to_menu", "value": "Back To Menu" },
+    { "key": "money", "value": "MONEY: " },
+    { "key": "wave_counter", "value": "Waves: " },
+    { "key": "language", "value": "English" },
+    { "key": "pause", "value": "Paused" },
+    { "key": "resume", "value": "Resume" },
+    { "key": "prices", "value": "+ Damage = 20$ Tower = 5$ Ice Tower = 15$ Explosive Tower = 30$" }
+  ]
+}
